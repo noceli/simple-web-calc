@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <script src="calc.js"></script>
+    <script src="https://kit.fontawesome.com/2b3995f93d.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>Calculadora de operações básicas</title>
+
+</head>
+
+<body>
+    <div>
+        <header>Calculadora Básica</header>
+        <article>
+            <form id="calc">
+                Operador 1: <input id="n1"></input><br>
+                Operador 2: <input id="n2"></input><br>
+                Resultado: <input id="resultado"/></input><br><br>
+                <div class="button">
+                    <button type="button" onclick="soma()"><i class="fas fa-plus"></i></button>
+                    <button type="button" onclick="subtracao()"><i class="fas fa-minus-circle"></i></button>
+                    <button type="button" onclick="divisao()"><i class="fas fa-divide"></i></button>
+                    <button type="button" onclick="multiplicacao()"><i class="fas fa-times-circle"></i></button>
+                </div>
+            </form>    
+        </article>
+    </div>
+</body>
+</html>
